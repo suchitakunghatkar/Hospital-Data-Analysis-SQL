@@ -111,4 +111,6 @@ Based on the SQL analysis, the following key insights were identified:
 
 - The data quality check identified **0 records** where the discharge date occurred before the admission date, indicating no invalid date sequences in the dataset.
 
-- The high-expense analysis using a threshold of **50,000** found **no records** exceeding this threshold.
+- Using a high-expense threshold of **30,000**, **City Hospital** had the highest proportion of high-expense records at **70.00%**, followed by **Fortis Care** at **63.64%** and **Metro Hospital** at **54.55%**.
+
+- **Apollo Health** had the lowest proportion of high-expense records at **27.27%** among all hospitals.
