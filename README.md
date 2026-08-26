@@ -71,3 +71,44 @@ The following business questions were explored using SQL:
 
 ### 8. Data Quality Analysis
 - Are there any records where the discharge date is earlier than the admission date?
+
+## 💡 Key Insights
+Based on the SQL analysis, the following key insights were identified:
+
+- **[Hospital Name]** recorded the highest total patient volume.
+- **[Hospital Name]** had the highest total medical expenses.
+- **[Department Name]** recorded the highest total medical expenses.
+- The **[Hospital Name + Department Name]** combination had the highest total medical expenses.
+- **[Hospital Name]** had the highest patient-to-doctor ratio, indicating a comparatively higher recorded workload.
+- Several records had medical expenses higher than the overall average medical expense.
+- The monthly analysis identified variations in patient volume and medical expenses over time.
+- Records with a length of stay greater than the overall average were identified for further analysis.
+- Data quality checks were performed to identify records where the discharge date was earlier than the admission date.
+
+## 💡 Key Insights
+
+Based on the SQL analysis, the following key insights were identified:
+
+- The dataset contains **100 hospital records** covering the period from **January 11, 2023, to December 30, 2023**.
+
+- **Apollo Health** recorded the highest total patient volume with **1,192 patients**, followed closely by **Heritage Hospital** with **1,179 patients**.
+
+- **Urology** recorded the highest total medical expenses, totaling **433,418.49**.
+
+- The **City Hospital – Gynecology** combination recorded the highest total medical expenses of **116,525.85** among all hospital-department combinations.
+
+- **Healing Touch** recorded the highest total medical expenses among hospitals with **352,178.06**, followed by **City Hospital** with **347,988.44**.
+
+- **Heritage Hospital** had the highest patient-to-doctor ratio of **5.31**, indicating the highest recorded patient workload relative to doctor count.
+
+- Several individual records had medical expenses above the overall average, with the highest being **49,955.41** at **Healing Touch – Neurology**.
+
+- Patient volume showed significant monthly variation, reaching its highest level in **November 2023 with 1,240 patients**, while **July 2023 recorded the lowest volume with 405 patients**.
+
+- Medical expenses were highest in **September 2023**, totaling **341,284.23**, followed closely by **December 2023** with **337,788.45**.
+
+- Several records had an above-average length of stay, with the longest recorded stay being **15 days**.
+
+- The data quality check identified **0 records** where the discharge date occurred before the admission date, indicating no invalid date sequences in the dataset.
+
+- The high-expense analysis using a threshold of **50,000** found **no records** exceeding this threshold.
