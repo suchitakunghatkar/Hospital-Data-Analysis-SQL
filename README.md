@@ -18,7 +18,7 @@ The dataset contains hospital-related records used to analyze patient volume, do
 - Discharge Date
 - Medical Expenses
 
-- ## 🛠️ SQL Skills & Techniques Used
+## 🛠️ SQL Skills & Techniques Used
 This project demonstrates the following SQL concepts and techniques:
 - Data Exploration and Data Validation
 - SELECT, WHERE, ORDER BY, and LIMIT
@@ -33,3 +33,41 @@ This project demonstrates the following SQL concepts and techniques:
 - NULLIF and COALESCE
 - Conditional Aggregation
 - Business Metrics and Performance Analysis
+
+## 📊 Business Questions & Analysis
+The following business questions were explored using SQL:
+
+### 1. Dataset Overview
+- What is the total number of records in the dataset?
+- What is the time period covered by the hospital data?
+
+### 2. Hospital Performance Analysis
+- Which hospitals have the highest total patient volume?
+- Which hospitals have the highest total medical expenses?
+- Which hospitals have above-average total expenses?
+
+### 3. Department Analysis
+- Which departments have the highest total patient volume?
+- Which departments have the highest medical expenses?
+- Which hospital-department combinations have the highest total medical expenses?
+
+### 4. Patient-to-Doctor Workload Analysis
+- Which hospitals have the highest patient-to-doctor ratio?
+- Which hospitals may have a comparatively higher recorded patient workload?
+
+### 5. Expense Analysis
+- Which records have medical expenses greater than the overall average?
+- What percentage of records fall into the high-expense category?
+
+### 6. Ranking and Performance Analysis
+- How do hospitals rank based on total patient volume?
+- Which departments rank highest based on total medical expenses?
+- What are the top patient-volume records within each department?
+
+### 7. Time-Based Analysis
+- How does patient volume change over time?
+- How do medical expenses vary on a monthly basis?
+- Which records have a length of stay greater than the overall average?
+
+### 8. Data Quality Analysis
+- Are there any records where the discharge date is earlier than the admission date?
