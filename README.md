@@ -17,3 +17,19 @@ The dataset contains hospital-related records used to analyze patient volume, do
 - Admission Date
 - Discharge Date
 - Medical Expenses
+
+- ## 🛠️ SQL Skills & Techniques Used
+This project demonstrates the following SQL concepts and techniques:
+- Data Exploration and Data Validation
+- SELECT, WHERE, ORDER BY, and LIMIT
+- Aggregate Functions: COUNT, SUM, AVG, MIN, MAX
+- GROUP BY and HAVING
+- CASE WHEN for conditional analysis
+- Subqueries
+- Common Table Expressions (CTEs)
+- JOINs: INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN
+- Window Functions: ROW_NUMBER, RANK, DENSE_RANK, LAG, and LEAD
+- Date Functions: DATE_TRUNC, EXTRACT, and date arithmetic
+- NULLIF and COALESCE
+- Conditional Aggregation
+- Business Metrics and Performance Analysis
