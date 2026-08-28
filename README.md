@@ -124,3 +124,39 @@ Hospital-Data-Analysis-SQL/
 ├── hospital_data_analysis.sql
 ├── hospital_data.csv
 
+## 🚀 How to Run the Project
+
+### Prerequisites
+
+- PostgreSQL
+- pgAdmin or any SQL client
+
+### Steps
+
+1. Clone or download this repository.
+
+2. Create a database in PostgreSQL.
+
+```sql
+CREATE DATABASE hospital_data_analysis;
+```
+
+3. Connect to the `hospital_data_analysis` database and create the `hospital_data` table.
+
+```sql
+CREATE TABLE hospital_data (
+    hospital_name VARCHAR(100),
+    location VARCHAR(100),
+    department VARCHAR(100),
+    doctors_count INTEGER,
+    patients_count INTEGER,
+    admission_date DATE,
+    discharge_date DATE,
+    medical_expenses NUMERIC(12,2)
+);
+```
+
+4. Import the `Hospital_Data.csv` dataset into the `hospital_data` table using pgAdmin.
+
+5. Open and run the `hospital_data_analysis.sql` file to perform the analysis.
+
