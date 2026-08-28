@@ -160,3 +160,17 @@ CREATE TABLE hospital_data (
 4. Import the `Hospital_Data.csv` dataset into the `hospital_data` table using pgAdmin.
 
 5. Open and run the `hospital_data_analysis.sql` file to perform the analysis.
+    ```
+    
+## 🛠️ Tools Used
+
+- **PostgreSQL** – Used for database creation, data querying, and analysis.
+- **pgAdmin 4** – Used to manage the PostgreSQL database, import the dataset, and execute SQL queries.
+- **GitHub** – Used to host and showcase the project and its documentation.
+  ```
+
+## 📌 Conclusion
+
+This project demonstrates the use of SQL and PostgreSQL to analyze hospital data and generate meaningful business insights. The analysis covers patient volume, medical expenses, department performance, patient-to-doctor workload, ranking analysis, date-based trends, and data quality checks.
+
+The project showcases practical SQL skills commonly used in Data Analyst roles, including data exploration, aggregations, filtering, joins, subqueries, CTEs, window functions, and date analysis.
