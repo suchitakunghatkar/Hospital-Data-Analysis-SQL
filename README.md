@@ -73,7 +73,6 @@ The following business questions were explored using SQL:
 - Are there any records where the discharge date is earlier than the admission date?
 
 ## 💡 Key Insights
-
 Based on the SQL analysis, the following key insights were identified:
 
 - The dataset contains **100 hospital records** covering the period from **January 11, 2023, to December 30, 2023**.
@@ -90,7 +89,7 @@ Based on the SQL analysis, the following key insights were identified:
 
 - Several individual records had medical expenses above the overall average, with the highest being **49,955.41** at **Healing Touch – Neurology**.
 
-- Patient volume showed significant monthly variation, reaching its highest level in **November 2023 with 1,240 patients**, while **July 2023 recorded the lowest volume with 405 patients**.
+- Patient volume showed significant monthly variation, reaching its highest level in **November 2023 with 1,240 patients**, while **July 2023 recorded the lowest    volume with 405 patients**.
 
 - Medical expenses were highest in **September 2023**, totaling **341,284.23**, followed closely by **December 2023** with **337,788.45**.
 
@@ -98,7 +97,7 @@ Based on the SQL analysis, the following key insights were identified:
 
 - The data quality check identified **0 records** where the discharge date occurred before the admission date, indicating no invalid date sequences in the dataset.
 
-- Using a high-expense threshold of **30,000**, **City Hospital** had the highest proportion of high-expense records at **70.00%**, followed by **Fortis Care** at **63.64%** and **Metro Hospital** at **54.55%**.
+- Using a high-expense threshold of **30,000**, **City Hospital** had the highest proportion of high-expense records at **70.00%**, followed by **Fortis Care** at   **63.64%** and **Metro Hospital** at **54.55%**.
 
 - **Apollo Health** had the lowest proportion of high-expense records at **27.27%** among all hospitals.
 
