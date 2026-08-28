@@ -73,19 +73,6 @@ The following business questions were explored using SQL:
 - Are there any records where the discharge date is earlier than the admission date?
 
 ## 💡 Key Insights
-Based on the SQL analysis, the following key insights were identified:
-
-- **[Hospital Name]** recorded the highest total patient volume.
-- **[Hospital Name]** had the highest total medical expenses.
-- **[Department Name]** recorded the highest total medical expenses.
-- The **[Hospital Name + Department Name]** combination had the highest total medical expenses.
-- **[Hospital Name]** had the highest patient-to-doctor ratio, indicating a comparatively higher recorded workload.
-- Several records had medical expenses higher than the overall average medical expense.
-- The monthly analysis identified variations in patient volume and medical expenses over time.
-- Records with a length of stay greater than the overall average were identified for further analysis.
-- Data quality checks were performed to identify records where the discharge date was earlier than the admission date.
-
-## 💡 Key Insights
 
 Based on the SQL analysis, the following key insights were identified:
 
@@ -160,18 +147,18 @@ CREATE TABLE hospital_data (
 4. Import the `Hospital_Data.csv` dataset into the `hospital_data` table using pgAdmin.
 
 5. Open and run the `hospital_data_analysis.sql` file to perform the analysis.
-   ```
+   
     
 ## 🛠️ Tools Used
 
 - **PostgreSQL** – Used for database creation, data querying, and analysis.
 - **pgAdmin 4** – Used to manage the PostgreSQL database, import the dataset, and execute SQL queries.
 - **GitHub** – Used to host and showcase the project and its documentation.
-  ```
+  
 
 ## 📌 Conclusion
 
 This project demonstrates the use of SQL and PostgreSQL to analyze hospital data and generate meaningful business insights. The analysis covers patient volume, medical expenses, department performance, patient-to-doctor workload, ranking analysis, date-based trends, and data quality checks.
 
 The project showcases practical SQL skills commonly used in Data Analyst roles, including data exploration, aggregations, filtering, joins, subqueries, CTEs, window functions, and date analysis.
-```
+
