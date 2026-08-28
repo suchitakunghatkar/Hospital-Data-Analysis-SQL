@@ -114,3 +114,13 @@ Based on the SQL analysis, the following key insights were identified:
 - Using a high-expense threshold of **30,000**, **City Hospital** had the highest proportion of high-expense records at **70.00%**, followed by **Fortis Care** at **63.64%** and **Metro Hospital** at **54.55%**.
 
 - **Apollo Health** had the lowest proportion of high-expense records at **27.27%** among all hospitals.
+
+## 📁 Project Structure
+
+```text
+Hospital-Data-Analysis-SQL/
+│
+├── README.md
+├── hospital_data_analysis.sql
+├── hospital_data.csv
+
